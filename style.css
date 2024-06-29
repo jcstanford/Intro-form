@@ -1,0 +1,42 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/************************
+    Mobile Layout
+**********************/
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+
+}
+
+
+/************************
+    Tablet Layout
+**********************/
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    
+}
+
+/************************
+    Laptop Layout
+**********************/
+
+@media screen and (min-width: 801px) and (max-width: 1440px) {
+    
+}
+
+/************************
+    Desktop Layout
+**********************/
+
+@media screen and (min-width: 1441px) {
+    
+}
