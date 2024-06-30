@@ -7,13 +7,44 @@
     color: hsl(228, 45%, 44%);
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('images/bg-intro-mobile.png');
+    background-color: rgb(226,120,119);
+    color: white;
+}
+
+
 
 /************************
     Mobile Layout
 **********************/
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
+    h1 {
+        text-align: center;
+        font-size: 3.8rem;
+        padding: 1em 2em 0 2em;
+    }
 
+    h1 + div > p {
+        text-align: center;
+        padding: 0 3em;
+        font-size: 2em;
+    }
+
+    .discount-offer {
+        border: none;
+        border-radius: 15px;
+        background-color: rgb(91,85,160);
+        text-align: center;
+        padding: 0.4em 2em;
+        margin: 1em 4em;
+        font-size: 2em;
+    }
 }
 
 
