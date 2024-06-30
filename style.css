@@ -45,6 +45,29 @@ body {
         margin: 1em 4em;
         font-size: 2em;
     }
+
+    .form-fill {
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+        padding: 10%;
+        box-shadow: 20px 20px 10px grey;
+    }
+
+    .form-fill form {
+        padding: 1em 0;
+    }
+
+    form > input {
+        padding: 1em 0 1em .5em;
+        width: 100%;
+    }
+
+    .form-fill p {
+        color: rgb(148,147,154);
+    }
 }
 
 
