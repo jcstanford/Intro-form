@@ -11,10 +11,54 @@ html {
     font-size: 62.5%;
 }
 
+/**************
+General Styles
+******************/
+
 body {
     background-image: url('images/bg-intro-mobile.png');
     background-color: rgb(226,120,119);
     color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 + div > p {
+    text-align: center;
+}
+
+.discount-offer {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(91,85,160);
+    text-align: center;
+    box-shadow: 0 10px 4px rgb(171, 88, 89);
+}
+
+.form-fill {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 4px rgb(171, 88, 89);
+}
+
+.form-fill p {
+    color: rgb(148,147,154);
+}
+
+.button-div button {
+    background-color: rgb(121,202,139);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 4px rgb(107, 176, 122);
+}
+
+.button-div + p {
+    margin: 1em 3em;
 }
 
 
@@ -25,36 +69,24 @@ body {
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
     h1 {
-        text-align: center;
         font-size: 3.8rem;
         padding: 1em 2em 0 2em;
     }
 
     h1 + div > p {
-        text-align: center;
         padding: 0 3em;
         font-size: 2em;
     }
 
     .discount-offer {
-        border: none;
-        border-radius: 15px;
-        background-color: rgb(91,85,160);
-        text-align: center;
         padding: 0.4em 2em;
         margin: 1em 4em;
         font-size: 2em;
-        box-shadow: 0 10px 4px rgb(171, 88, 89);
     }
 
     .form-fill {
-        background-color: white;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
         margin: 10%;
         padding: 10%;
-        box-shadow: 0 10px 4px rgb(171, 88, 89);
     }
 
     .form-fill form {
@@ -66,12 +98,10 @@ body {
         width: 100%;
     }
 
-    .form-fill p {
-        color: rgb(148,147,154);
-    }
-
-    .button-div {
-        text-align: center;
+    .button-div button {
+        padding: 1em 2em;
+        width: 100%;
+        font-size: 1.5em;
     }
 }
 
